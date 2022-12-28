@@ -30,6 +30,21 @@
             <li>Teamfight Tactics</li>
             <li>Valorant</li>
           </ol>
+          <button
+            id="my-test-button-1"
+            class="btn btn-secondary"
+            onmouseleave="(() => {console.log('bye bye')})()"
+            onmouseover="(() => {console.log('welcome')})()"
+          >
+            My Test Button
+          </button>
+          <button
+            id="my-test-button-2"
+            class="btn btn-info"
+            onclick="(() => {document.getElementById('my-test-button-2').classList.add('btn-danger')})()"
+          >
+            My Test Button
+          </button>
           <a
             href="https://www.facebook.com/trankhoa.rocker/"
             class="btn btn-primary"
